@@ -42,6 +42,7 @@ useEffect(() => {
                 <input
                   name="totalCtc"
                   type="number"
+                  step="0.01"
                   required
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
