@@ -41,7 +41,7 @@ useEffect(() => {
               <div>
                 <input
                   name="totalCtc"
-                  type="text"
+                  type="number"
                   required
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
@@ -55,7 +55,7 @@ useEffect(() => {
                 <input
                   id="variable"
                   name="variable"
-                  type="text"
+                  type="number"
                   required
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
