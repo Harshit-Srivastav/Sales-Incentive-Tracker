@@ -13,6 +13,7 @@ function App() {
   const currentTarget = e.currentTarget
   const totalCtc = currentTarget.elements.totalCtc.value
   const variable = currentTarget.elements.variable.value 
+  
   let ctcInLakhs = totalCtc * 100000
   let fixedCTC = ctcInLakhs * 0.9
   let bandCheck = fixedCTC * (variable/100)
@@ -41,8 +42,8 @@ useEffect(() => {
               <div>
                 <input
                   name="totalCtc"
-                  type="number"
-                  step="0.01"
+                  type='number'
+                 
                   required
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
@@ -57,6 +58,7 @@ useEffect(() => {
                   id="variable"
                   name="variable"
                   type="number"
+                   step="0.01" min="0" max="10"
                   required
                   className="appearance-none rounded-none relative block
                   w-full px-3 py-2 border border-gray-300
