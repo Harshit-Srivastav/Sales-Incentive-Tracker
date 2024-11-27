@@ -7,7 +7,7 @@ function App() {
  const [band, setBand] = useState()
  const [message, setMessage] = useState('');
  const [success, setSuccess] = useState(false)
-
+ console.log('a')
  const handleSubmit = (e) => {
   e.preventDefault()
   const currentTarget = e.currentTarget
