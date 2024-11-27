@@ -26,7 +26,7 @@ function App() {
 useEffect(() => {
   success && setMessage(`Fixed CTC: ${ctc} Band: ${band}`)
 }, [success, band, ctc])
-
+console.log('Run')
   return (
 
           <form className="mt-8 space-y-6 mx-auto max-w-[500px]" onSubmit={handleSubmit}>
