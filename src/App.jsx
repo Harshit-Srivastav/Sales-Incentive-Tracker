@@ -24,7 +24,6 @@ function App() {
   currentTarget.elements.totalCtc.value = ""
   currentTarget.elements.variable.value = ""
  }
-console.log('Running')
 useEffect(() => {
   success && setMessage(`Fixed CTC: ${ctc} Band: ${band}`)
 }, [success, band, ctc])
