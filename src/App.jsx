@@ -17,7 +17,6 @@ function App() {
   let ctcInLakhs = totalCtc * 100000
   let fixedCTC = ctcInLakhs * 0.9
   let bandCheck = fixedCTC * (variable/100)
-  console.log(fixedCTC, bandCheck)
   setCTC(fixedCTC)
   setBand(bandCheck)
   setSuccess(true)
